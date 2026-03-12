@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:d4tivokasi/core/constants/constants.dart';
+import 'package:d4tivokasi/core/constants/app_constants.dart';
 import 'package:d4tivokasi/features/mahasiswa/data/models/mahasiswa_model.dart';
 
 class MahasiswaListView extends StatelessWidget {

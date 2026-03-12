@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:d4tivokasi/core/widgets/widgets.dart';
+import 'package:d4tivokasi/core/widgets/common_widgets.dart';
 import 'package:d4tivokasi/features/mahasiswa_aktif/presentation/providers/mahasiswa_aktif_provider.dart';
 import 'package:d4tivokasi/features/mahasiswa_aktif/presentation/widgets/mahasiswa_aktif_widget.dart';
 

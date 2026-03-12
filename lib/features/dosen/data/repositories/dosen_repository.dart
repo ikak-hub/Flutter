@@ -1,4 +1,4 @@
-import 'package:my_awesome_app/features/dosen/data/models/dosen_model.dart';
+import 'package:d4tivokasi/features/dosen/data/models/dosen_model.dart';
 
 class DosenRepository {
   /// Mendapatkan daftar dosen

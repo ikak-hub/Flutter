@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_awesome_app/modul_3/class_object.dart';
+import 'package:d4tivokasi/modul_3/class_object.dart';
 
 class DashboardProvider extends ChangeNotifier{
   int _mahasiswa = 120;

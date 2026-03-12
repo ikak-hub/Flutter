@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_awesome_app/features/dosen/data/models/dosen_model.dart';
-import 'package:my_awesome_app/features/dosen/data/repositories/dosen_repository.dart';
+import 'package:d4tivokasi/features/dosen/data/models/dosen_model.dart';
+import 'package:d4tivokasi/features/dosen/data/repositories/dosen_repository.dart';
 
 // Repository Provider
 final dosenRepositoryProvider = Provider<DosenRepository>((ref) {

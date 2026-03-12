@@ -1,17 +1,8 @@
-// import 'core/constants/app_constants.dart';
-// import 'core/theme/app_theme.dart';
-// import 'pages/dashboard_page.dart';
-// import 'features/presentation/pages/dashboard_page.dart';
-// import 'package:provider/provider.dart';
-// import 'providers/dashboard_provider.dart';
-import 'package:my_awesome_app/core/constants/app_constants.dart';
-import 'package:my_awesome_app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_awesome_app/features/presentation/pages/dashboard_page.dart';
-
-
-
+import 'package:d4tivokasi/core/constants/app_constants.dart';
+import 'package:d4tivokasi/core/theme/app_theme.dart';
+import 'package:d4tivokasi/features/dashboard/presentation/pages/dashboard_page.dart';
 // 1.2 TM3
 void main() {
   runApp(

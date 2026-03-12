@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_awesome_app/core/constants/app_constants.dart';
+import 'package:d4tivokasi/core/constants/app_constants.dart';
 
 class ProfilePage extends ConsumerWidget {
   const ProfilePage({super.key});

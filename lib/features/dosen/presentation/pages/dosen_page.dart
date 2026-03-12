@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_awesome_app/core/widgets/common_widgets.dart';
-import 'package:my_awesome_app/features/dosen/presentation/providers/dosen_provider.dart';
-import 'package:my_awesome_app/features/dosen/presentation/widgets/dosen_widget.dart';
+import 'package:d4tivokasi/core/widgets/common_widgets.dart';
+import 'package:d4tivokasi/features/dosen/presentation/providers/dosen_provider.dart';
+import 'package:d4tivokasi/features/dosen/presentation/widgets/dosen_widget.dart';
 
 class DosenPage extends ConsumerWidget {
   const DosenPage({super.key});
@@ -39,7 +39,7 @@ class DosenPage extends ConsumerWidget {
 
         // State: memanggil data dosen dari dosen list dan memanggil widget
         data: (dosenList) {
-          return dosenListView(
+          return DosenListView(
             dosenList: dosenList,
             onRefresh: () {
               ref.invalidate(dosenNotifierProvider);

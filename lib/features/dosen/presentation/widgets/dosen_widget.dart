@@ -1,6 +1,6 @@
+import 'package:d4tivokasi/features/dosen/data/models/dosen_model.dart';
 import 'package:flutter/material.dart';
-import 'package:my_awesome_app/core/constants/app_constants.dart';
-import 'package:my_awesome_app/features/dosen/data/models/dosen_model.dart';
+import 'package:d4tivokasi/core/constants/app_constants.dart';
 
 class ModernDosenCard extends StatefulWidget {
   final DosenModel dosen;
@@ -184,5 +184,37 @@ class _ModernDosenCardState extends State<ModernDosenCard>
         ), // Expanded
       ],
     ); // Row
+  }
+}
+class DosenListView extends StatelessWidget {
+  final List<DosenModel> dosenList;
+  final VoidCallback onRefresh;
+  final bool useModernCard;
+
+  const DosenListView({
+    super.key,
+    required this.dosenList,
+    required this.onRefresh,
+    this.useModernCard = true,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return RefreshIndicator(
+      onRefresh: () async => onRefresh(),
+      child: ListView.builder(
+        padding: const EdgeInsets.all(16),
+        itemCount: dosenList.length,
+        itemBuilder: (context, index) {
+          final dosen = dosenList[index];
+          return ModernDosenCard(
+            dosen: dosen,
+            onTap: () {
+              // Aksi saat kartu dosen diklik
+            },
+          );
+        },
+      ),
+    );
   }
 }

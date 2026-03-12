@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:d4tivokasi/core/constants/constants.dart';
-import 'package:d4tivokasi/core/theme/theme.dart';
+import 'package:d4tivokasi/core/constants/app_constants.dart';
+import 'package:d4tivokasi/core/theme/app_theme.dart';
 import 'package:d4tivokasi/features/dashboard/data/models/dashboard_model.dart';
 
 /// Widget untuk menampilkan statistik card (simple)

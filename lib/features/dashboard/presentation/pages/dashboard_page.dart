@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_awesome_app/core/constants/app_constants.dart';
-import 'package:my_awesome_app/core/widgets/common_widgets.dart';
-import 'package:my_awesome_app/features/dashboard/presentation/providers/dashboard_provider.dart';
-import 'package:my_awesome_app/features/dashboard/presentation/widgets/dashboard_widget.dart';
-import 'package:my_awesome_app/features/mahasiswa/presentation/pages/mahasiswa_page.dart';
-import 'package:my_awesome_app/features/mahasiswa_aktif/presentation/pages/mahasiswa_aktif_page.dart';
-import 'package:my_awesome_app/features/dosen/presentation/pages/dosen_page.dart';
-import 'package:my_awesome_app/features/profile/presentation/pages/profile_page.dart';
+import 'package:d4tivokasi/core/constants/app_constants.dart';
+import 'package:d4tivokasi/core/widgets/common_widgets.dart';
+import 'package:d4tivokasi/features/dashboard/presentation/providers/dashboard_provider.dart';
+import 'package:d4tivokasi/features/dashboard/presentation/widgets/dashboard_widget.dart';
+import 'package:d4tivokasi/features/mahasiswa/presentation/pages/mahasiswa_page.dart';
+import 'package:d4tivokasi/features/mahasiswa_aktif/presentation/pages/mahasiswa_aktif_page.dart';
+import 'package:d4tivokasi/features/dosen/presentation/pages/dosen_page.dart';
+import 'package:d4tivokasi/features/profile/presentation/pages/profile_page.dart';
 
 class DashboardPage extends ConsumerWidget {
   const DashboardPage({Key? key}) : super(key: key);
