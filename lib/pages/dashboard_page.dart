@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/dashboard_provider.dart';
 
 class DashboardPage extends StatelessWidget {
-  const DashboardPage({Key? key}) : super(key: key);
+  const DashboardPage({super.key});
 
   @override
   Widget build(BuildContext context) {

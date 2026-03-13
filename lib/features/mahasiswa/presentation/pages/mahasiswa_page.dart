@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:d4tivokasi/core/widgets/common_widgets.dart';
-import 'package:d4tivokasi/core/constants/app_constants.dart';
 import 'package:d4tivokasi/features/mahasiswa/presentation/providers/mahasiswa_provider.dart';
 import 'package:d4tivokasi/features/mahasiswa/presentation/widgets/mahasiswa_widget.dart';
 
