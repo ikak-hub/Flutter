@@ -77,7 +77,7 @@ class MahasiswaAktifCard extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  mahasiswa.nama.substring(0, 1).toUpperCase(),
+                  mahasiswa.namaDisplay.substring(0, 1).toUpperCase(),
                   style: const TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -90,7 +90,7 @@ class MahasiswaAktifCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(mahasiswa.nama,
+                  Text(mahasiswa.namaDisplay,
                       style: const TextStyle(
                           fontSize: 15, fontWeight: FontWeight.bold),
                       maxLines: 1,

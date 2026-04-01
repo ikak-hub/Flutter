@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 // tm 5
 class DosenRepositoryDio {
   final Dio _dio = Dio(BaseOptions(
-    baseUrl: 'https://jsonplaceholder.typicode.com',
+    baseUrl: 'https://jsonplaceholder.typicode.com/users',
     connectTimeout: const Duration(seconds: 10),
     receiveTimeout: const Duration(seconds: 10),
     headers: {'Accept': 'application/json'},
